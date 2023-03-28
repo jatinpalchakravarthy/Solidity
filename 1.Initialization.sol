@@ -57,4 +57,5 @@ function add()public view returns(uint){
   //local variable are stored in stack and are defined inside the functions and they dont cost for gas.
   //string by default is stored in contract storage so we use memory word to get stored in memory and not to create conflict.
   //memory storage are not allowed outside functions.
+  //storage memory 
 }
